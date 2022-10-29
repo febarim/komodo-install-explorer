@@ -142,7 +142,7 @@ if [ ! -d "$CUR_DIR/explorer-notarized" ]; then
   count=1
   while [ $success -eq 0 ]; do
     echo "[Try $count] Cloning the explorer installer repository"
-    git clone https://github.com/gcharang/explorer-notarized && success=1 || success=0
+    git clone https://github.com/estar-app/explorer-notarized && success=1 || success=0
     sleep 4
     count=$((count+1))
   done
